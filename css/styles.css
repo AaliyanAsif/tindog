@@ -1,0 +1,215 @@
+
+
+body {
+    font-family: 'Montserrat';
+
+
+}
+h1{
+
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: white;
+
+    padding: 15% 0% 5%;
+}
+
+h2{
+    font-size: 3rem;
+    font-family: Montserrat ;
+    font-weight: 700;
+    
+
+}
+
+h3{
+    font-size: 1.5rem;
+    font-family: Montserrat ;
+    font-weight: 700;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+
+/* Divs */
+
+.feature-div{
+    padding: 10%;
+}
+
+
+
+/* Navbar  */
+
+.navbar{
+    padding-left: 0;
+}
+
+a.navbar-brand{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.7rem;
+    font-weight: 600;
+    
+}
+
+.nav-item{
+    padding: 0 1.5rem;
+}
+
+a.navbar-link{
+    padding: 5rem;
+    font-family: 'Montserrat-Light';
+}
+
+#title{
+    background-color: #ff4c68;
+    
+}
+
+
+
+
+/* Images */
+
+.img-iphone{
+    transform: rotate(25deg);
+    width: 60%;
+    padding-top: 15%;
+    position: absolute;
+    right: 30%;
+  }
+
+/* Download Buttons */
+
+.button-download{
+    margin: 3% 5% 3% 0;
+}
+
+/* Feature Section  */
+
+#features{
+    background-color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    position: relative;
+    
+}
+
+/* Icons */
+
+.feature-icon{
+    color: #ef8172;
+    padding-top: 10%;
+    padding-bottom: 7%;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
+
+
+/* Testimonial Section */
+
+#testimonials{
+    background-color: #ef8172;
+    color: #fff;
+  
+}
+
+.img-dog{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px ;
+}
+
+.img-casual{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin: 20px;
+    
+}
+
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 5%;
+    
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-inner{
+    padding: 5% 15%;
+    text-align: center;
+    
+}
+
+/* Pricing Section  */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.price-card{
+    padding:3% 2% ;
+}
+
+/* Call To Action Section  */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+   
+}
+
+.h2-cta{
+    font-weight: 900;
+    line-height: 1.5;
+    padding-bottom: 3%;
+    
+}
+
+/* Footer Section  */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 10% 15%;
+}
+
+.footer-icon{
+    padding:2% ;
+}
+
+/* Mobile View  */
+
+    @media screen and (max-width:990px) {
+        
+        #title{
+            text-align: center;
+        }
+
+        .img-iphone{
+            position: static;
+            transform: rotate(0);
+            width: 50%;
+            padding-top: 50px;
+        }
+        
+    }
